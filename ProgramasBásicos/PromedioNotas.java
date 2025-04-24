@@ -1,0 +1,20 @@
+//Arrays, for, operaciones básicas.
+
+import java.util.Scanner;
+
+public class PromedioNotas {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double[] notas = new double[5];
+        double suma = 0;
+
+        for (int i = 0; i < notas.length; i++) {
+            System.out.print("Ingresa la nota " + (i + 1) + ": ");
+            notas[i] = sc.nextDouble();
+            suma += notas[i];
+        }
+
+        double promedio = suma / notas.length;
+        System.out.println("El promedio es: " + promedio);
+    }
+}
