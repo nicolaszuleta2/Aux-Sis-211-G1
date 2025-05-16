@@ -14,5 +14,6 @@ public class AreaCirculo {
         double r = sc.nextDouble();
         double area = calcularArea(r);
         System.out.println("El área es: " + area);
+        sc.close();
     }
 }

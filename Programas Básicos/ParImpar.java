@@ -1,14 +1,17 @@
-//Bucles (for).
+//Condicionales (if, else).
 
 import java.util.Scanner;
 
-public class TablaMultiplicar {
+public class ParImpar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingresa un número: ");
         int num = sc.nextInt();
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(num + " x " + i + " = " + (num * i));
+        if (num % 2 == 0) {
+            System.out.println("Es par.");
+        } else {
+            System.out.println("Es impar.");
         }
+        sc.close();
     }
 }

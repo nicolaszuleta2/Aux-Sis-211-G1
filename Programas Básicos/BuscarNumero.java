@@ -21,5 +21,6 @@ public class BuscarNumero {
         if (!encontrado) {
             System.out.println("Número no encontrado.");
         }
+        sc.close();
     }
 }

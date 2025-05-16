@@ -11,5 +11,6 @@ public class Suma {
         int b = x.nextInt();
         int suma = a + b;
         System.out.println("La suma es: " + suma);
+        x.close();
     }
 }

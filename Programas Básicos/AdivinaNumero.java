@@ -22,6 +22,8 @@ public class AdivinaNumero {
                 System.out.println("¡Correcto!");
             }
         } while (intento != secreto);
+        
+        sc.close();
     }
 }
 

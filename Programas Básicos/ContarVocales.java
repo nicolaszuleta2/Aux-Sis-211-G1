@@ -17,5 +17,6 @@ public class ContarVocales {
         }
 
         System.out.println("Número de vocales: " + contador);
+        sc.close();
     }
 }

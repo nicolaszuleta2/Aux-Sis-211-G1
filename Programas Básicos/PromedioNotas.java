@@ -16,5 +16,6 @@ public class PromedioNotas {
 
         double promedio = suma / notas.length;
         System.out.println("El promedio es: " + promedio);
+        sc.close();
     }
 }

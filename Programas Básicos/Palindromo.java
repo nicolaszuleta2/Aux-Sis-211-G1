@@ -18,5 +18,6 @@ public class Palindromo {
         } else {
             System.out.println("No es un palíndromo.");
         }
+        sc.close();
     }
 }
