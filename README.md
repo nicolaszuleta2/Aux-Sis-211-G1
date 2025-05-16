@@ -67,5 +67,5 @@ Programas simples para practicar sintaxis, estructuras de control, bucles, arreg
 1. Asegúrate de tener Java instalado (`java -version`)
 2. Compila el archivo `.java`:
 
-bash:
+```bash
 javac NombreArchivo.java
